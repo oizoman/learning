@@ -1,0 +1,11 @@
+
+# Powershell command to deploy to Resource Group
+New-AzResourceGroupDeployment `
+  -Name demoRGDeployment `
+  -ResourceGroupName ExampleGroup `
+  -TemplateFile main.bicep `
+  -TemplateParameterFile main.parameters.dev.json
+
+
+
+  
