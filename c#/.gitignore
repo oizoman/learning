@@ -1,6 +1,8 @@
 # Ignore the build directories
-bin/
-obj/
+Codewars/bin/
+Codewars/obj/
+Codewars.Tests/bin/
+Codewars.Tests/obj/
 
 # Ignore user-specific files
 *.user
